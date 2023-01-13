@@ -92,8 +92,10 @@ class RegisterScreen extends StatelessWidget {
               margin: const EdgeInsets.symmetric(horizontal: 40, vertical: 10),
               child: GestureDetector(
                 onTap: () => {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => const LoginScreen()))
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => const LoginScreen()))
                 },
                 child: const Text(
                   "Already Have an Account? Sign in",
